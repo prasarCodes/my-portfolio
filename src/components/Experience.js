@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "../assets/database/experiences";
 
-const Experience = () => {
+export const Experience = () => {
   return (
     <section className="experience" id="experience">
       <div className="container">
@@ -30,5 +30,3 @@ const Experience = () => {
     </section>
   );
 };
-
-export default Experience;
