@@ -43,7 +43,7 @@ export const Banner = () => {
                 <div
                   className={ isVisible ? "header-img animate__animated animate__slideInRight" : "header-img animate__animated animate__slideOutRight" } 
                 >
-                  <Tilt options={{ max: 500 }}>
+                  <Tilt options={{ max: 80 }}>
                   <img
                     src={headerImg}
                     alt="Header Img"
