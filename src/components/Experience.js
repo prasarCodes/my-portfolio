@@ -1,7 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { experiences } from "../assets/database/experiences";
+import { experiences } from "../static/assets/database/experiences";
 
 export const Experience = () => {
   return (

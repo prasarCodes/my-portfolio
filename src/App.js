@@ -8,7 +8,7 @@ import { Experience } from "./components/Experience";
 import { Github } from "./components/Github";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import { StarsCanvas } from "../src/canvas";
+import { StarsCanvas } from "../src/static/canvas";
 
 const App = () => {
   return (
@@ -19,7 +19,10 @@ const App = () => {
       <div className="tw-relative tw-z-0">
         <StarsCanvas />
         <Experience />
-        <Github />
+      </div>
+      <Github />
+      <div className="tw-relative tw-z-0">
+        <StarsCanvas />
         <Contact />
       </div>
       <Footer />

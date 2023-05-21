@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import { EarthCanvas } from "../canvas";
+import { EarthCanvas } from "../static/canvas";
 
 export const Contact = () => {
   const formInitialDetails = {

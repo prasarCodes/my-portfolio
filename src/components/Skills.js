@@ -1,6 +1,6 @@
-import colorSharp from "../assets/img/color-sharp.png";
-import { BallCanvas } from "../canvas";
-import { skills } from '../assets/database/skills';
+import colorSharp from "../static/assets/img/color-sharp.png";
+import { BallCanvas } from "../static/canvas";
+import { skills } from '../static/assets/database/skills';
 
 export const Skills = () => {
   return (
